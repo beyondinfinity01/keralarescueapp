@@ -1,7 +1,6 @@
 import React from "react";
 import { View, Text, Alert } from "react-native";
 import HeaderButtons, { Item } from "react-navigation-header-buttons";
-import database from "../api/database";
 const t = require("tcomb-form-native");
 
 var Form = t.form.Form;
@@ -17,7 +16,6 @@ async function onPress() {
   let value = form.getValue();
   if (value) {
     console.log(value);
-    await database.sendRequest(value);
   }
 }
 

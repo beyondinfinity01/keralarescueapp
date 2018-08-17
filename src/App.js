@@ -4,23 +4,12 @@ import {
   createBottomTabNavigator,
   createStackNavigator
 } from "react-navigation";
-import firebase from "firebase";
 import ContactScreen from "./screens/ContactScreen";
 import MapScreen from "./screens/MapScreen";
 
 import Entypo from "react-native-vector-icons/Entypo";
 import MaterialIcons from "react-native-vector-icons/MaterialIcons";
 import RequestScreen from "./screens/RequestScreen";
-
-const config = {
-  apiKey: "AIzaSyAU_iET0eeB4utSc_BWT3m8NM8rCOg4DYw",
-  authDomain: "kerala-flood-rescue.firebaseapp.com",
-  databaseURL: "https://kerala-flood-rescue.firebaseio.com",
-  projectId: "kerala-flood-rescue",
-  storageBucket: "kerala-flood-rescue.appspot.com",
-  messagingSenderId: "278949494853"
-};
-firebase.initializeApp(config);
 
 const MapStack = createStackNavigator(
   {

@@ -1,7 +1,6 @@
 import React from "react";
 import { View, Text, Alert, TouchableOpacity } from "react-native";
 import Mapbox from "@mapbox/react-native-mapbox-gl";
-import database from "../api/database";
 
 Mapbox.setAccessToken(
   "pk.eyJ1IjoiY2xvb2RvdCIsImEiOiJjamt3ZndvNmgweTdxM3dtcmZoNGc4cTl1In0.rMJhst0iWwdZ4tcGmZWOAg"
@@ -35,10 +34,9 @@ class MapScreen extends React.Component {
         console.log(error);
         this.setState({ error: error.message });
       },
-      { enableHighAccuracy: true, maximumAge: 1000 }
+      { enableHighAccuracy: true }
     );
 
-    database.getRequestCollectionLive(value => {}, () => {});
   }
 
   componentWillUnmount() {
