@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "278949494853",
+    "firebase_url": "https://kerala-flood-rescue.firebaseio.com",
+    "project_id": "kerala-flood-rescue",
+    "storage_bucket": "kerala-flood-rescue.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:278949494853:android:4dc66e3b23d4915c",
+        "android_client_info": {
+          "package_name": "com.keralafloodrescue"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "278949494853-23a4l4cir92em5ls2qei32to5fg798c3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHPnQi3Na2r9MGnV1ZxPmJl65S0XcwCeE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

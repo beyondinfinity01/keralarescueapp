@@ -1,0 +1,34 @@
+{
+  "name": "keralarescue",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "babel-preset-react-native-stage-0": "^1.0.1",
+    "jest": "^23.5.0",
+    "jest-react-native": "^18.0.0",
+    "react-test-renderer": "16.3.1"
+  },
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "test": "jest"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "dependencies": {
+    "@mapbox/react-native-mapbox-gl": "^6.1.2",
+    "firebase": "^5.4.0",
+    "geofirestore": "^2.1.1",
+    "react": "16.3.1",
+    "react-native": "~0.55.2",
+    "react-native-code-push": "^5.4.1",
+    "react-native-firebase": "^4.3.8",
+    "react-native-js-bottom-sheet": "^1.0.0",
+    "react-native-vector-icons": "^5.0.0",
+    "react-navigation": "^2.11.2",
+    "react-navigation-header-buttons": "^2.1.0",
+    "tcomb-form-native": "^0.6.15"
+  }
+}
